@@ -1,0 +1,29 @@
+day1--- project and app creation
+day2----project and multiple app creation
+day3----project and multiple app creation (how to write the code inside the views page and connection to url)
+day4---project and template creation and static file creation
+-----------------------------------------------------------------------------------------------------
+your work is :
+wednesday---->creation project and app (implement any messge and connect to url in setting.py file by using httpresponse
+thirsday------>create project and multiple apps inside the multiples 
+  1.write code for addition and subtraction 
+  2.write code for division and multiplication
+
+friday------> create project by using multiple apps and template  display of your details by dict
+saturday---->create project by using static files amd implement images inside the content
+
+sunday------> create one project by using all the above:
+             1.project and apps
+             2.addition and division and subtraction and multiply
+             3.template and static files 
+monday----->theory Questions:(monday class all the four projects discussion and doughts)
+            1. what is MVT
+            2. what is Render
+            3.structure of django project
+            4.what is template
+            5.what is static file
+--------------------------------------------------------------------------------------------------------------------------
+teusday(4-04-2023)------>creation of models and admin(create superuser)
+wed(05-04-2023)---------> django ORM
+-------------------------------------------------------------------------------------------------
+

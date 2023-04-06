@@ -1,0 +1,52 @@
+1.project creation 
+2.app creation
+3.data base connection
+4.template creation
+---------------------------------------------
+mysql,
+--------------------------------------------
+1.floder name  ----project7
+2.create project projectname--->models(database)
+pip install mysql
+
+3.create appp
+4.create template
+
+settin.py 
+appname
+template
+database
+--------------------------------------------------------
+python manage.py shell
+from django.db import connection
+c=connection.cursor()
+exit()
+-----------------------------------------------------------
+models.py:
+
+create a class and create columns(table_name,columns)---mysql
+views.py 
+we fetch the models data
+urls.py:
+here we write functionname to display the output
+-------------------------------------------------------------------
+python manage.py shell
+from django.db import connection
+c=connetion.cursor()
+exit()
+--------------------------------------------
+python manage.py make migrations
+python manage.py  migrate
+-------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,51 @@
+today:26-03-2023
+
+1.project creation
+2.multiple apps creation
+3.template creation
+
+
+what is MVT:
+Models: 
+The models represent the database schema and define the data structure for the application. 
+They are responsible for interacting with the database
+and performing data-related operations such as creating, retrieving, updating, and deleting data.
+
+Views:
+ The views handle the logic for processing user requests and generating responses.
+ They are responsible for retrieving data from the database via the models,
+ processing the data, and rendering a response in the form of an HTTP response (e.g. HTML, JSON, etc.).
+
+Templates:
+ The templates define the presentation logic of the application.
+ They are responsible for generating the final HTML that will be sent to the user's browser.
+ They use the data passed to them by the views to generate dynamic content.
+----------------------------------------------------------------------------------------------------------------------------
+what is WSGI:
+
+stands for web server gateway interface,which is a specification that defines how a web server
+communicates with the web applicaton,such as django
+
+what is ASGI:
+ASGI stands for asyncrononus server gate way interface which is a specification 
+that  the wsgi interface to support asychronus webserver and web application
+--------------------------------------------------------------------------------------------------------------------------
+
+command:
+1.from django.shortcuts import render
+2.from django.http import HttpResponse
+
+1.it is ashortcuts function that is used to render a template with a context and return an httpresponse
+
+the render function have three arguments 
+a.request
+b.name of the template to be rendered
+c.dictionary of a context variable that will be passed to the template
+
+----------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+

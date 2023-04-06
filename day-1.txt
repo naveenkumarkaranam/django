@@ -1,0 +1,50 @@
+what is django :
+1.django is a python web framework.
+2.it is used for the creation webapplication like mozila,instagram,e-c applications,
+3.It is heavy weighted framework
+4.the application work MVT
+------------>M--model
+------------>V--view
+------------>T --template
+_________________________________________________
+django creation process:
+
+1.go to the terminal check the --->pip list
+2.if "pip" is not present in the list then uninstall the pycha--reinstall
+ with all the access
+3. pip install django
+4.creation of project
+       a.django-admin startproject projectName(you can write anything here according to the project
+       requirement)
+5.in the project inside we some files those are :
+1.__init__.py
+2.wsgi.py
+3.setting.py 
+4.url.py
+5.asgi.py
+6.create app inside django project
+  command line-->django-admin startapp appname
+  a.migrations
+  b.__init__.py 
+  c.models.py
+d.admin.py file
+e.test.py file
+f.views.py file
+----------------------------------------------------------------------
+points to verify the django project is working or not
+1.go to the terminal write command "python manage.py runserver"
+
+port number :8000
+-----------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
